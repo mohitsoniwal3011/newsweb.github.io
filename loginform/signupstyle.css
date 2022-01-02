@@ -1,0 +1,29 @@
+.container {
+    /* width: 60vw; */
+
+    height: 500px;
+}
+
+.checkbox-keep-signed-in {
+    height: 40px;
+    font-size: medium;
+}
+
+#signup {
+    width: 98%;
+    height: 80%;
+    /* background-color: rgb(95, 17, 212); */
+    background-color: #3D3A3A;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: large;
+    color: white;
+}
+
+#signup:hover {
+    background-color: #302E2E;
+    transform: scale(0.98);
+
+}

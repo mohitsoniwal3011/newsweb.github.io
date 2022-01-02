@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;    
+
+    background-image: url('img/abdul-a-0si69BeGjoI-unsplash.jpg');
+    /* background-position: bottom center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-color: rgb(107, 45, 214);
+    
+    
+}
+.all-center-flex{
+    display: flex;
+    font-display: column;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container{
+    height: 400px;
+    width: 330px;
+    /* background-color:white; */
+    background-color: transparent;
+    /* opacity: 0.8; */
+    border-radius: 10px;
+    border: 2px solid rgb(192, 190, 190);
+    padding: 0 0;
+}
+
+
+.imgBox{
+    height: 30%;
+    width: 50%;
+    /* background-color: green; */
+}
+.imgBox img{
+    overflow: hidden;
+    height: 70px;
+    width: 180px;
+}
+
+.capturePassword{
+    height: 18%;
+    width: 100%;
+    /* background-color: blue; */
+    /* justify-content: start; */
+    align-items: start;
+    font-size: small;
+}
+.captureEmail{
+    height: 18%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    /* justify-content: start; */
+    align-items: start;
+    font-size: small;
+}
+
+.captureEmail b, .capturePassword b{
+    color: rgb(192, 190, 190);
+}
+.submission{
+    height: 13%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+
+.email-password{
+    width: 98%;
+    height: 50%;
+    margin: 0;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+    padding:  0 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px; 
+    box-sizing: border-box;
+}
+
+#sub{
+    width: 98%;
+    height: 80%;
+    /* background-color: rgb(95, 17, 212); */
+    background-color: #3D3A3A;
+    border: none;
+    border-radius: 50px; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: large; 
+    color: white;
+}
+#sub:hover{
+    background-color: #302E2E;
+    transform: scale(0.98);
+
+}
+.forgot-create-buttons{
+    width: 48%;
+    height: 80%;
+    /* margin: 10px 0px; */
+    background-color: #adce70;
+    border: none;
+    border-radius: 10px; 
+}
+.checkbox-keep-signed-in{
+    display: flex;
+    justify-items: start;
+    align-items: center;
+    width: 96%;
+    height: 20px;
+    background: transparent;
+    color: rgb(192, 190, 190);
+}
+
+.forgot-password{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.forgot-password a{
+    text-decoration: none;
+    font-size: large;
+    color: rgb(23, 23, 122);
+    color:rgb(192, 190, 190);
+
+}
+
+#keep-me-signed-in{
+    background-color: rgb(192, 190, 190);
+    border: none;
+}
+
+
+@media screen  and (max-width: 760px){
+    body {
+        background-image: url(img/abdul-a-0si69BeGjoI-unsplash\ \(copy\).jpg)
+    }
+}

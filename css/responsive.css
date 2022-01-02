@@ -1,0 +1,26 @@
+@media only screen and (max-width: 750px) {
+    header{
+        height: 150px;
+    }
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 130px;
+    }
+    .link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttons{
+        width: 250px;
+    }    
+}
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Open+Sans&family=Roboto+Condensed:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Nunito+Sans:wght@300&family=Open+Sans&family=Roboto+Condensed:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: white; */
+    background-color: whitesmoke;
+}
+.container{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:  0 3.5em ;
+    background-color: whitesmoke;
+}
+.containerBox{
+    height: 420px;
+    margin: 2vh 2vw;
+    border-radius: 7px;
+    text-align: center;
+    flex-wrap: wrap;
+    overflow:hidden;
+    background-color: whitesmoke;
+}
+.containerBox:hover{
+    transform: scale(1.01);
+}
+.containerBox a{
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: 'IBM Plex Serif', serif;
+    color: darkblue;
+    /* background-color: white; */
+    background-color: whitesmoke;
+}   
+.containerBox p{
+    font-size: medium;
+    font-family: 'IBM Plex Serif', serif;
+    overflow: hidden;
+    height: 100px;
+    /* background-color: white; */
+    background-color: whitesmoke;
+}
+
+img{
+    width: 100%;
+}
+.vertical {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+.link a img{
+    height: 40px;
+}

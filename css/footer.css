@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+footer {
+    border-top: 1px solid gray;
+    font-size: large;
+    height: 60px;
+    /* background-color: white; */
+     background-color: rgba(15,19,20,255) 
+}
+footer p {
+    font-size: large;
+    background-color: rgba(15,19,20,255); 
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
